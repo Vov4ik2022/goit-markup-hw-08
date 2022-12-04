@@ -1,0 +1,58 @@
+/* цвет фона общий*/
+.team {   
+    background-color: var(--background-color-team);
+    @extend %section;
+
+/* заглавие */
+    &__title {
+        text-align: center;
+        font-size: 36px;
+        line-height: calc(42 / 36);
+        letter-spacing: 0.03em;   
+        margin-bottom: 50px;
+        color: var(--color-font-h2-h3-name);
+    }
+}
+
+.team-list {
+    display: flex; 
+    align-items: center;
+    gap: 30px;
+
+
+/* цвет фона картинки */
+    &__item {
+        width: 270px;
+        height: 428px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        background-color: var(--background-color-weite);
+    }
+}
+
+.team-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+/* имя h3 */
+    &__title {
+        text-align: center;
+        font-weight: 500px;
+        font-size: 16px;
+        line-height: calc(19 / 16);
+        letter-spacing: 0.03em;
+        margin-bottom: 10px;
+        color: var(--color-font-h2-h3-name);
+    }
+
+    /* должность */
+    &__text {
+        text-align: center;
+        font-size: 16px;
+        line-height: calc(19 / 16);
+        letter-spacing: 0.03em;
+        margin-bottom: 16px; 
+        color: var(--color-font-contact-p);  
+    }
+}

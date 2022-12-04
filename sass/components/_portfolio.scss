@@ -1,0 +1,14 @@
+
+.portfolio {
+    @extend %section;
+}
+/* цвет фона */
+.portfolio-page {
+    background-color: var(--background-color-weite);
+}
+
+.portfolio-container {
+    @extend %container;
+    display: flex;
+    flex-direction: column;
+}
