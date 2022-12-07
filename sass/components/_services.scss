@@ -2,9 +2,15 @@
     @extend %section;
     padding-top: 0;
 
+    display: none;
+    padding-top: 0px;
+    @media screen and (min-width: 1200px) {
+        display: contents;
+    }
+
     &__block {        
         display: flex;
-        flex-direction: column;
+        flex-direction: column;        
     }
 
     &__title {

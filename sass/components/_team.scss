@@ -14,10 +14,17 @@
     }
 }
 
+
+
 .team-list {
     display: flex; 
     align-items: center;
     gap: 30px;
+    @media screen and (max-width: 767px) {
+        width: 450px;
+        flex-wrap: wrap;
+      
+    }
 
 
 /* цвет фона картинки */

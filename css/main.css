@@ -415,6 +415,13 @@ img {
 
 .services {
   padding-top: 0;
+  display: none;
+  padding-top: 0px;
+}
+@media screen and (min-width: 1200px) {
+  .services {
+    display: contents;
+  }
 }
 .services__block {
   display: -webkit-box;
@@ -491,6 +498,13 @@ img {
           align-items: center;
   gap: 30px;
   /* цвет фона картинки */
+}
+@media screen and (max-width: 767px) {
+  .team-list {
+    width: 450px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 .team-list__item {
   width: 270px;
