@@ -605,9 +605,35 @@ img {
           align-items: center;
   gap: 30px;
 }
-.partners__item {
-  width: 170px;
-  height: 92px;
+@media screen and (max-width: 767px) {
+  .partners__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .partners__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 767px) {
+  .partners__item {
+    width: 210px;
+    height: 92px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .partners__item {
+    width: 226px;
+    height: 92px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .partners__item {
+    width: 170px;
+    height: 92px;
+  }
 }
 .partners__link {
   display: -webkit-box;
