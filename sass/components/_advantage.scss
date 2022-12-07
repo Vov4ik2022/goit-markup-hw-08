@@ -1,25 +1,35 @@
 .advantage {
     @extend %section;
+    
 
     &__block {      
         display: block;
+        
     }
 }
 
 .advantage-list {
         display: flex;
-        // flex-wrap: wrap;
+        flex-wrap: wrap;
+        
         gap: 30px;
-        // padding-top: 60px;
-        // padding-bottom: 60px;
-
 
     &__fram {
+        // width: 270px;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 120px;
         margin-bottom: 30px;
         border-radius: 4px;
         background-color: var(--background-color-team);
-    }
+         
+     }
+
+
+
+
+    
 
     &__icon {
         display: flex;
@@ -34,6 +44,10 @@
         text-transform: uppercase;
         margin-bottom: 10px;
         color: var(--color-font-h2-h3-name);
+
+         @media screen and (max-width: 767px) {
+        text-align: center;    
+             }
     }
 
     &__text {
@@ -41,49 +55,29 @@
         line-height: calc(24 / 14);
         letter-spacing: 0.03em;
         color: var(--color-font-contact-p);
+
+
     }
 }
 
 
-@media screen and (max-width: 767px) {
-    .advantage-list {
-        
+.advantage-list__item{
+    @media screen and (max-width: 767px) {
+        width: 450px;   
+    }   
 
-        &__fram {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            justify-content: center;
-            align-items: center;
-            width: 450px;
-            
-        }   
+
+
+    @media screen and (min-width: 768px)  {
+        flex-wrap: wrap;
+        width: 354px;
     }
+
+
+    @media screen and (min-width: 1200px) {
+
+        width: 270px;   
+    }    
+
 }
 
-@media screen and (min-width: 768px) {
-    .advantage-list {
-   
-
-        &__fram {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 354px;
-          
-        }
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .advantage-list {
-
-
-        &__fram {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 270px;       
-        }        
-    }
-}
