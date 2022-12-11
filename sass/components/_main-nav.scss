@@ -1,10 +1,21 @@
 .main-nav {
-    display: none;
+    @media screen and (max-width: 767px) {      
+        display: none;
+     }
+
+    @media screen and (min-width: 768px) {
+    //    display: inline-flex;
+      margin-left: 91px;
     
-    // margin-right: auto;    
+    }
+
+
+    margin-right: auto; 
+      
 
     &__list {    
         display: flex;
+        
         align-items: center;
         gap: 50px;
     }
@@ -33,6 +44,8 @@
         left: 50%;
         bottom: -1%;
         transform: translateX(-50%); 
+
+        
         
         } 
         

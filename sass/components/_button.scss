@@ -23,8 +23,14 @@
 }
 
 .order-btn {
-    min-width: 216px;
-    min-height: 50px;
+    width: 200px;
+    height: 50px;
+    
+    @media screen and (min-width: 1200px) {
+        min-width: 216px;
+        min-height: 50px;
+    }
+    
 }
 
 // Футер. Кнопка с лого
