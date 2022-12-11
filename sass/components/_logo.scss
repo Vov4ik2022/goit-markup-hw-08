@@ -6,6 +6,8 @@
     letter-spacing: 0.03em;
     margin-right: 93px;
     color: var(--button-color-web-second);   
+    align-items: center;
+    
 }
 
 .logo__black {
@@ -15,5 +17,9 @@
 
 .logo__white {
     color: var(--color-font-hero-address);
-    
+    @media screen and (max-width: 767px) {
+        align-items: center;
+        justify-content: center;
+       
+    } 
 }
