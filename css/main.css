@@ -57,11 +57,27 @@
 }
 
 .portfolio-container {
-  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+@media screen and (min-width: 480px) {
+  .portfolio-container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfolio-container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-container {
+    width: 1200px;
+  }
 }
 
 html {
@@ -260,7 +276,7 @@ img {
     display: none;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1199px) {
   .contact {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1069,6 +1085,17 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  --items:1;
+}
+@media screen and (min-width: 768px) {
+  .portfolio-container {
+    --items:2;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-container {
+    --items:3;
+  }
 }
 
 .filter {
@@ -1097,8 +1124,8 @@ img {
   border-radius: 4px;
   min-width: 73px;
   min-height: 38px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 25px;
+  padding-right: 25px;
   border: none;
   cursor: pointer;
   color: var(--color-font-h2-h3-name);

@@ -1,11 +1,15 @@
 .filter {
+
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 
-
     .filter__item:not(:last-child) {
         margin-right: 8px;
+    
+    // @media screen and (max-width: 767px) {
+    //     flex-wrap: wrap;
+    // }
 }
 
 /* секція фільтров кнопок */
@@ -20,8 +24,8 @@
         border-radius: 4px;
         min-width: 73px;
         min-height: 38px;
-        padding-left: 22px;
-        padding-right: 22px;
+        padding-left: 25px;
+        padding-right: 25px;
         border: none;
         cursor: pointer;
         color: var(--color-font-h2-h3-name);
