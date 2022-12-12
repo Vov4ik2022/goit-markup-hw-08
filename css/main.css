@@ -103,6 +103,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -1470,7 +1472,6 @@ img {
   border: none;
   border-radius: 50%;
   outline: none;
-  background-color: aqua;
 }
 
 @media (min-width: 768px) {

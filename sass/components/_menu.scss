@@ -35,7 +35,7 @@
     border: none;
     border-radius: 50%;
     outline: none;
-    background-color: aqua;
+    
   }
   
   @media (min-width: 768px) {
@@ -132,3 +132,8 @@
       color: var(--button-color-web-second);
     }
   }
+
+  // .mobile-social__item:not(:last-child) {
+  //   border-right: 1px solid rgba(33,33,33,.2);
+  //   padding-right: 10px;
+  // }

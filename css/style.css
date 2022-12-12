@@ -28,6 +28,8 @@ p {
 скидаемо малюнки
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 Скрытый текст в Портфолио
