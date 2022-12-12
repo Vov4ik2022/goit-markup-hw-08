@@ -4,15 +4,11 @@
      }
 
     @media screen and (min-width: 768px) {
-    //    display: inline-flex;
       margin-left: 91px;
-    
     }
-
 
     margin-right: auto; 
       
-
     &__list {    
         display: flex;
         
@@ -34,23 +30,18 @@
     
         &:hover,
         &:focus {
-            color: var(--button-color-web-second);    
-            
+            color: var(--button-color-web-second);      
         }
+        
         // === Рисочка ===
         &::after {
         content: '';
         position: absolute;
         left: 50%;
         bottom: -1%;
-        transform: translateX(-50%); 
-
-        
-        
-        } 
-        
+        transform: translateX(-50%);    
+        }    
     }
-  
 }  
 
 

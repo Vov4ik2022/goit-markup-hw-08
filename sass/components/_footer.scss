@@ -9,8 +9,7 @@
     &__general {
         display: flex;
         align-items: baseline;
-        justify-content: space-between;   
-        
+               
         @media screen and(max-width: 767px) {
             flex-direction: column;
             align-items: center;
@@ -23,50 +22,25 @@
 
         @media screen and (min-width: 1200px) {
             justify-content: space-between;
-        }
-       
-}
+        }      
+    }
 
     &__block {
         display: flex;
         flex-direction: column;
-        width: 231px;    
+        width: 231px;   
+        text-align: center; 
 
-        @media screen and (max-width: 767px) {
-        //    align-items: center;
-        text-align: center;
-          
-        }
-
-        @media screen and (min-width: 768px) {
-            // align-items: center;
-            text-align: center;
-           
-         }
-
-         @media screen and (min-width: 1200px) {
-            // align-items:flex-start;
+        @media screen and (min-width: 1200px) {
             text-align: left;
            
-         }
-
-            
-
-}
+        }
+    }
 
     &__socials {
         display: flex;
         flex-direction: column;  
-
-            @media screen and (max-width: 767px) {
-                padding-bottom: 60px;
-              
-        }
-
-        @media screen and (min-width: 768px) {
-            padding-bottom: 60px;
-          
-        }
+        padding-bottom: 60px;
     }
 
     /* h2 Приєднуйтесь */
@@ -77,25 +51,10 @@
         letter-spacing: 0.03em;
         margin-bottom: 20px;
         color: var(--color-font-hero-address); 
-
-        @media screen and (max-width: 767px) {
-            // display: flex;          
-            // justify-content: center;     
-            text-align: center;   
-        }
-
-        @media screen and (min-width: 768px) {
-            // display: flex;          
-            // justify-content: center;       
-            text-align: center;  
-        }
-
+        text-align: center;   
+        
         @media screen and (min-width: 1200px) {
-            text-align: left;     
-                    
-        }
-
-
-       
+            text-align: left;                        
+        }       
     }
 }

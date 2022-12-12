@@ -13,7 +13,7 @@
         margin-right: 8px;
         @media screen and (max-width: 767px) {
             margin-bottom: 15px;
-          }
+        }
 }
 
 /* секція фільтров кнопок */
@@ -36,7 +36,6 @@
         background-color: var(--background-color-team);
         transition: color var(--hover-effect), background-color var(--hover-effect), box-shadow var(--hover-effect);
     
-
         &:hover,
         &:focus {
             background-color: var(--button-color-web-second);

@@ -1,9 +1,7 @@
 .hero { 
-    background-color: var(--background-color-section1-footer);
+    background-color: var(--background-color-section1-footer);   
     
-    
-    &__overlay {
-        
+    &__overlay {   
         margin-left: auto;
         margin-right: auto;
         padding-top: 118px;
@@ -15,8 +13,6 @@
         // background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
         // url(../images/hero.jpg);   
 
-
-
         @media screen and (min-width: 1200px) {
             max-width: 1600px;
             padding-top: 200px;
@@ -24,12 +20,10 @@
         }
     }
 
-    &__block {
-       
+    &__block {  
         display: flex;
         flex-direction: column;
-        align-items: center;  
-        
+        align-items: center;    
     }
 
     &__title {
@@ -48,7 +42,6 @@
             line-height: calc(60 / 44);
             width: 696px;
         }
-
     }
 }
 

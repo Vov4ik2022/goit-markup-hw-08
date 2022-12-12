@@ -16,7 +16,6 @@
     position: relative;
     overflow: hidden;
 
-
     &__block {
         display: flex;
         align-items: center;
@@ -46,9 +45,7 @@
     padding: 20px 24px;
     border-left: 1px solid var(--border-content);
     border-right: 1px solid var(--border-content);
-    border-bottom: 1px solid var(--border-content);
-
-    
+    border-bottom: 1px solid var(--border-content);   
 }
 
 /* h2 */

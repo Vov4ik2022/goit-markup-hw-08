@@ -1,7 +1,6 @@
 .header {  
   border-bottom: 1px solid var(--border-bottom-header);
  
-
   &__block {  
     padding-top: 16px;
     padding-bottom: 16px;
@@ -13,10 +12,9 @@
       }
 
       @media screen and (min-width: 768px) {
-        padding-top: 0;
+      padding-top: 0;
       padding-bottom: 0;
-      }
-      
+      }     
     }
   }
 
