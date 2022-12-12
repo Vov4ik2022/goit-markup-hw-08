@@ -276,7 +276,7 @@ img {
     display: none;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .contact {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -912,17 +912,8 @@ img {
 
 .address {
   margin-top: 20px;
+  margin-bottom: 60px;
   /* имеил и тел */
-}
-@media screen and (max-width: 767px) {
-  .address {
-    margin-bottom: 60px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .address {
-    margin-bottom: 60px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .address {
@@ -1108,8 +1099,22 @@ img {
   margin-bottom: 50px;
   /* секція фільтров кнопок */
 }
+@media screen and (max-width: 767px) {
+  .filter {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 .filter .filter__item:not(:last-child) {
   margin-right: 8px;
+}
+@media screen and (max-width: 767px) {
+  .filter .filter__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 .filter__button {
   -webkit-box-align: center;
