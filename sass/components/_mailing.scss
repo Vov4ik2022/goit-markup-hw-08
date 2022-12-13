@@ -30,7 +30,8 @@
     }
 
     &__form {
-        width: 450px;
+        width: 95vw;
+        max-width: 450px;
         height: 50px;
         padding: 15px 16px;
         outline: 1px solid rgba(255, 255, 255, 0.3);
@@ -43,9 +44,10 @@
             border: var(--color-fill-hover);  
         }
 
-        @media screen and (min-width: 1200px) {      
-            width: 358px;      
-        }
+          @media screen and (min-width: 1200px) {
+            width: 358px;
+          }
+
     }
 }
 
@@ -61,3 +63,4 @@
     top: 13px;
     right: 28px;  
 }
+
