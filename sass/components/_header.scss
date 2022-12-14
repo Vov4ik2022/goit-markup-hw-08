@@ -2,13 +2,11 @@
   border-bottom: 1px solid var(--border-bottom-header);
  
   &__block {  
-    padding-top: 16px;
-    padding-bottom: 16px;
     display: flex;
     align-items: center;      
     
       @media screen and (max-width: 767px) {
-        padding-right: 10px;
+        padding: 10px 15px;
       }
 
       @media screen and (min-width: 768px) {
